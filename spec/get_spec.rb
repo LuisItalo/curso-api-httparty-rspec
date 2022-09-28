@@ -1,12 +1,10 @@
-
-
-describe 'fazer uma requisicao' do
+describe 'fazer uma requisição' do
     it 'get' do
-        # se nao utiliza o modulo chamaria o httparty assim
-        # @opcao1 = HTTParty.get('http://api-de-tarefas.herokuapp.com/contacts/3227')
-        # puts @opcao1
+        #se a gente nao usasse o modulo se chamaria o httparty com o get assim:
+        #@primeira_opcao = HTTParty.get('https://api-de-tarefas.herokuapp.com/contacts')
+        #puts @primeira_opcao
 
-        @opcao2 = Contato.get('/contacts/3227')
-        puts @opcao2
+         @melhor_opcao = Contato.get('/contacts')
+         #puts @melhor_opcao
     end
 end
