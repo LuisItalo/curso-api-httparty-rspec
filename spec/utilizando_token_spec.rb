@@ -1,4 +1,4 @@
-describe 'usando' do
+describe 'usando token' do
     it 'token' do
         # gera um email aleatorio
         @email = Faker::Internet.email
